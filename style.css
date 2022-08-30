@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 300px;
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+}
+
+.container{
+    position: absolute;
+    width: 300px;
+    height: 250px;
+}
+.gp-video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 250px;
+}
+
+#wowslider-container1{
+opacity: 1;
+transition: opacity 1s;
+}
+
+.hidden{
+    display: none;
+}
